@@ -32,7 +32,7 @@ export default function LoginPage() {
       justifyContent: "center",
       alignItems: "center",
       minHeight: "100vh",
-      background: "linear-gradient(to right, #6dd5ed, #2193b0)"
+      background: "linear-gradient(to right,rgb(177, 109, 237),rgb(78, 33, 176))"
     }}>
       <div style={{
         backgroundColor: "#fff",
