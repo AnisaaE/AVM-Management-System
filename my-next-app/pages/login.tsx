@@ -71,7 +71,7 @@ export default function LoginPage() {
         </h2>
         <form onSubmit={handleLogin}>
           <div style={{ marginBottom: 25 }}>
-            <label style={{ display: "block", marginBottom: 8, fontWeight: "bold" }}>Email</label>
+            <label style={{ display: "block", marginBottom: 8, fontWeight: "bold",color: "#333" }}>Email</label>
             <input
               type="email"
               value={email}
@@ -82,13 +82,14 @@ export default function LoginPage() {
                 padding: "12px",
                 border: "1px solid #ccc",
                 borderRadius: "8px",
-                fontSize: "16px"
+                fontSize: "16px",
+                color: "#333"
               }}
             />
           </div>
 
           <div style={{ marginBottom: 25 }}>
-            <label style={{ display: "block", marginBottom: 8, fontWeight: "bold" }}>Şifre</label>
+            <label style={{ display: "block", marginBottom: 8, fontWeight: "bold",color: "#333" }}>Şifre</label>
             <div style={{ position: "relative" }}>
               <input
                 type={showPassword ? "text" : "password"}
@@ -100,7 +101,8 @@ export default function LoginPage() {
                   padding: "12px 40px 12px 12px",
                   border: "1px solid #ccc",
                   borderRadius: "8px",
-                  fontSize: "16px"
+                  fontSize: "16px",
+                  color: "#333"
                 }}
               />
               <button
@@ -114,7 +116,8 @@ export default function LoginPage() {
                   background: "none",
                   border: "none",
                   cursor: "pointer",
-                  fontSize: "18px"
+                  fontSize: "18px",
+                  color: "#333"
                 }}
                 aria-label="Şifreyi Göster/Gizle"
               >
